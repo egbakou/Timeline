@@ -9,6 +9,6 @@ namespace Timeline.Models
         public string AuthorImage { get; set; }
         public string Title { get; set; }
         public string Detail { get; set; }
-        public string DatetoString { get; set; }
+        public string DateToString { get; set; }
     }
 }
