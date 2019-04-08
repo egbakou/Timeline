@@ -97,7 +97,7 @@
                                             <Label
                                                 FontAttributes="Bold"
                                                 FontSize="12"
-                                                Text="{Binding DatetoString}"
+                                                Text="{Binding DateToString}"
                                                 TextColor="#3b0999" />
                                         </StackLayout>
                                     </StackLayout>

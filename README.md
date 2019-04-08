@@ -276,7 +276,7 @@ namespace Timeline.ViewModels
                                             <Label
                                                 FontAttributes="Bold"
                                                 FontSize="12"
-                                                Text="{Binding DatetoString}"
+                                                Text="{Binding DateToString}"
                                                 TextColor="#3b0999" />
                                         </StackLayout>
                                     </StackLayout>
@@ -289,38 +289,4 @@ namespace Timeline.ViewModels
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
-```
-
-### Code behind
-
-```csharp
-using StatusBar.Interfaces;
-using System;
-using Xamarin.Forms;
-
-namespace StatusBar
-{
-    public partial class MainView : ContentPage
-    {
-        public MainView()
-        {
-            InitializeComponent();
-            ShowStatusBarButton.IsEnabled = false;
-        }
-       
-        private void HideStatusBarButton_Clicked(object sender, EventArgs e)
-        {
-            DependencyService.Get<IStatusBar>().HideStatusBar();
-            HideStatusBarButton.IsEnabled = false;
-            ShowStatusBarButton.IsEnabled = true;
-        }
-
-        private void ShowStatusBarButton_Clicked(object sender, EventArgs e)
-        {
-            DependencyService.Get<IStatusBar>().ShowStatusBar();
-            HideStatusBarButton.IsEnabled = true;
-            ShowStatusBarButton.IsEnabled = false;
-        }
-    }
-}
 ```
