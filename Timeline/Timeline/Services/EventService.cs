@@ -5,7 +5,7 @@ namespace Timeline.Services
 {
     public class EventService
     {
-        public static List<Event> GetAllEventsDes()
+        public static List<Event> GetAllEvents()
         {
             return new List<Event>
             {

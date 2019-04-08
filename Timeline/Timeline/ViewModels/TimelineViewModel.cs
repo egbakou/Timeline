@@ -12,7 +12,7 @@ namespace Timeline.ViewModels
         {
             Title = "Timeline";
             TimelineEvents = new ObservableCollection<Event>
-                (Services.EventService.GetAllEventsDes());
+                (Services.EventService.GetAllEvents());
         }
 
 
