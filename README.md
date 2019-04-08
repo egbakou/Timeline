@@ -1,6 +1,6 @@
 ## Awesome Timeline in Xamarin.Forms
 
-![](Timeline/screenshots/tweet.PNG)
+![](Timeline/screenshots/tweet.png)
 
 ### Lioncoding article Link
 
