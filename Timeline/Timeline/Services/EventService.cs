@@ -34,7 +34,7 @@ namespace Timeline.Services
                 {
                     AuthorImage ="mvp.jpg",
                     Title = "MVP Award Program Retweeted your Tweet.",
-                    Detail = "MVP Award Program Retweeted your Tweet: MVP Gbobal Submmit...",
+                    Detail = "MVP Award Program Retweeted your Tweet: MVP Gbobal Summit...",
                     DateToString = "APRIL, 08 2019"
                 },
                  new Event
