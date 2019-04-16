@@ -4,9 +4,13 @@
 
 ### Lioncoding article Link
 
-[Awesome Timeline in Xamarin.Forms](https://lioncoding.com/)
+[Awesome Timeline in Xamarin.Forms](https://lioncoding.com/2019/04/08/2019-04-08-ui-concevoir-un-timeline-dans-xamarin-forms/)
 
 ### Create your project(I'm using VS2019)
+
+![](Timeline/screenshots/create_project.PNG)
+
+
 
 ![](Timeline/screenshots/select_type.PNG)
 
@@ -98,7 +102,7 @@ namespace Timeline.Services
                 {
                     AuthorImage ="mvp.jpg",
                     Title = "MVP Award Program Retweeted your Tweet.",
-                    Detail = "MVP Award Program Retweeted your Tweet: MVP Gbobal Submmit...",
+                    Detail = "MVP Award Program Retweeted your Tweet: MVP Gbobal Su...",
                     DateToString = "APRIL, 08 2019"
                 },
                  new Event
