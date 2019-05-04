@@ -48,7 +48,7 @@ protected override void OnCreate(Bundle savedInstanceState)
 
 ##### IOSproject
 
-- AppDelegate .cs
+- AppDelegate.cs
 
 ```csharp
 public override bool FinishedLaunching(UIApplication app, NSDictionary options)
