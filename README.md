@@ -46,6 +46,22 @@ protected override void OnCreate(Bundle savedInstanceState)
 }
 ```
 
+##### IOSproject
+
+- AppDelegate .cs
+
+```csharp
+public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+{
+	// Init FFImageLoading plugin
+	FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
+    
+	global::Xamarin.Forms.Forms.Init();
+	LoadApplication(new App());
+	return base.FinishedLaunching(app, options);
+}
+```
+
 
 
 ### UI
